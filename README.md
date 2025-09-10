@@ -1,9 +1,19 @@
-# Date Plus
+# Zero
 
 Demonstrates how to extend a built-in global class with custom functionality.
 
 ```ts
-new Date().plus({ days: 5 });
+console.log('Zero padded numbers:');
+console.log((5).padZero());
+console.log((5).z());
+console.log((123).padZero());
+console.log((123).z());
+
+console.log('Zero padded strings:');
+console.log('5'.padZero());
+console.log('5'.z());
+console.log('123'.padZero());
+console.log('123'.z());
 ```
 
-See [`date-plus.ts`](./src/utils/date-plus.ts)
+See [`zero.ts`](./src/utils/zero.ts)
