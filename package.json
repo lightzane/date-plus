@@ -1,0 +1,22 @@
+{
+  "name": "date-plus",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "nodemon --exec tsx src/index.ts --watch src --ext ts,json,graphql",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}
